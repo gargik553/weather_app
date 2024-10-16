@@ -8,7 +8,7 @@ const WeatherApp = () => {
   });
   return (
     <div>
-      <h1>Welcome to Gargi Weather App</h1>
+      <h1>Welcome to Weather App</h1>
       <SearchBox  setDataProp={setData}/>
       <InfoBox data={data}/>
     </div>
